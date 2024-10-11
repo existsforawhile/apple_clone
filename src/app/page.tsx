@@ -1,8 +1,15 @@
 import Image from "next/image";
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
+import Highlights from "../components/highlights";
 
 export default function Home() {
 
   return (
-	  <div className="font-[family-name:var(--font-geist-sans)]">KAMIKAZE</div>
+	  <main>
+		<Navbar />
+		<Hero />
+		<Highlights />
+	  </main>
   );
 }
